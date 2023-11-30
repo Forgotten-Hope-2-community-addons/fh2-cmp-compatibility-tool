@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh dp28_deployed
+CollisionManager.createTemplate dp28_deployed
+
+ObjectTemplate.create GenericFireArm dp28_deployed
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator KEVIN-PC:Kevin
+ObjectTemplate.collisionMesh dp28_deployed
+ObjectTemplate.mapMaterial 0 UNDEFINED 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry dp28_deployed
+
+include dp28_deployed.tweak

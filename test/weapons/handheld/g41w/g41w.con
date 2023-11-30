@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh g41w
+CollisionManager.createTemplate g41w
+
+ObjectTemplate.create GenericFireArm g41w
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator DESKTOP-TC5UABP:Seth
+ObjectTemplate.collisionMesh g41w
+ObjectTemplate.mapMaterial 0 UNDEFINED 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry g41w
+
+include g41w.tweak

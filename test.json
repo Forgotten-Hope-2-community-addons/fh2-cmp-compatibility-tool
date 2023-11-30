@@ -1,0 +1,1553 @@
+{
+    "consumed": {
+        "paths": {
+            "Objects/Weapons/Handheld/dp28/AnimationSystem1p.inc": [
+                "dp28.tweak"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/AnimationSystem1p.inc": [
+                "dp28_deployed.tweak"
+            ],
+            "Objects/Weapons/Handheld/g41w/AnimationSystem1p.inc": [
+                "g41w.tweak"
+            ],
+            "Objects/Weapons/Handheld/dp28/AnimationSystem3p.inc": [
+                "dp28.tweak"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/AnimationSystem3p.inc": [
+                "dp28_deployed.tweak"
+            ],
+            "Objects/Weapons/handheld/g41w/AnimationSystem3p.inc": [
+                "g41w.tweak"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_deploy.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_fire.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_idle1.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_idle2.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_reload.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_run.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_crawl_left.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_crawl_right.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_crawl_rev.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_crawl.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_sprint.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_fire.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_run.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_crawl_left.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_crawl_right.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_crawl_rev.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_crawl.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_crouch.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_prone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_tozoom.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_runBackwardToProne.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_crouchForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_runForwardToProne.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_proneFire.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_proneStrafeLeft.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_proneStrafeRight.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_proneBackward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_proneForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_proneReload.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_proneStill.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_proneDeploy.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_standToProne.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_standFire.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/animations/3p/3p_dp28_zoomfire.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_reload.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_strafeLeft.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_strafeRight.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_runBackward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_runForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_sprint.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_stand.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_walkLeft.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_walkRight.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_walkBackward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_walkForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_zoom.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_standDeploy.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_deploy.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_fire_crouch.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_fire_prone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_fire_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_run_crouch.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_crawl_left.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_crawl_right.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_crawl_rev.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_crawl.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_run_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_reload.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_reload_prone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_sprint.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_crouch.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_prone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_fire.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_crawl_left.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_crawl_right.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_crawl_rev.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_crawl.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_tozoom.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_toprone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_fromprone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_sprintAlt.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_deploy.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_fire.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_idle1.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_idle2.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_reload.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_run.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_crawl_left.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_crawl_right.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_crawl_rev.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_crawl.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_sprint.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_fire.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_run.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_crawl_left.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_crawl_right.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_crawl_rev.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_crawl.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_crouch.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_prone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/animations/1p/1p_g41w_tozoom.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_runBackwardToProne.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_crouchForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_runForwardToProne.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_proneFire.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_proneStrafeLeft.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_proneStrafeRight.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_proneBackward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_proneForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_proneReload.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_proneStill.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_proneDeploy.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_standToProne.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_standFire.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/animations/3p/3p_m1garand_zoomfire.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/bar18a2/Animations/3p/3p_bar18_reload.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_strafeLeft.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_strafeRight.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_runBackward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_runForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/3p/3p_g41w_sprint.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_stand.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_walkLeft.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_walkRight.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_walkBackward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_walkForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_zoom.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_standDeploy.baf": [
+                "AnimationSystem3p.inc"
+            ]
+        },
+        "templates": {
+            "dp28": [
+                "dp28.tweak",
+                "dp28.con"
+            ],
+            "S_dp28_Fire1P": [
+                "dp28.tweak"
+            ],
+            "S_dp28_Fire1P_Outdoor": [
+                "dp28.tweak"
+            ],
+            "S_dp28_Fire3P": [
+                "dp28.tweak"
+            ],
+            "S_dp28_BoltClick": [
+                "dp28.tweak"
+            ],
+            "S_dp28_TriggerClick": [
+                "dp28.tweak"
+            ],
+            "S_dp28_Reload1P": [
+                "dp28.tweak"
+            ],
+            "S_dp28_Reload3P": [
+                "dp28.tweak"
+            ],
+            "S_dp28_Deploy1P": [
+                "dp28.tweak"
+            ],
+            "S_dp28_Deploy3P": [
+                "dp28.tweak"
+            ],
+            "S_dp28_Zoom": [
+                "dp28.tweak"
+            ],
+            "dp28_deployed": [
+                "dp28_deployed.tweak",
+                "dp28_deployed.con"
+            ],
+            "S_dp28_deployed_Fire1P": [
+                "dp28_deployed.tweak"
+            ],
+            "S_dp28_deployed_Fire1P_Outdoor": [
+                "dp28_deployed.tweak"
+            ],
+            "S_dp28_deployed_Fire3P": [
+                "dp28_deployed.tweak"
+            ],
+            "S_dp28_deployed_BoltClick": [
+                "dp28_deployed.tweak"
+            ],
+            "S_dp28_deployed_TriggerClick": [
+                "dp28_deployed.tweak"
+            ],
+            "S_dp28_deployed_Reload1P": [
+                "dp28_deployed.tweak"
+            ],
+            "S_dp28_deployed_Reload3P": [
+                "dp28_deployed.tweak"
+            ],
+            "S_dp28_deployed_Deploy1P": [
+                "dp28_deployed.tweak"
+            ],
+            "S_dp28_deployed_Deploy3P": [
+                "dp28_deployed.tweak"
+            ],
+            "S_dp28_deployed_Zoom": [
+                "dp28_deployed.tweak"
+            ],
+            "g41w": [
+                "g41w.tweak",
+                "g41w.con"
+            ],
+            "S_g41w_Fire1P": [
+                "g41w.tweak"
+            ],
+            "S_g41w_Fire1P_Outdoor": [
+                "g41w.tweak"
+            ],
+            "S_g41w_Fire3P": [
+                "g41w.tweak"
+            ],
+            "S_g41w_BoltClick": [
+                "g41w.tweak"
+            ],
+            "S_g41w_TriggerClick": [
+                "g41w.tweak"
+            ],
+            "S_g41w_SwitchFireRate": [
+                "g41w.tweak"
+            ],
+            "S_g41w_Reload1P": [
+                "g41w.tweak"
+            ],
+            "S_g41w_Reload3P": [
+                "g41w.tweak"
+            ],
+            "S_g41w_Deploy1P": [
+                "g41w.tweak"
+            ],
+            "S_g41w_Deploy3P": [
+                "g41w.tweak"
+            ],
+            "S_g41w_Zoom": [
+                "g41w.tweak"
+            ],
+            "geb_gun": [
+                "dp28.tweak",
+                "dp28_deployed.tweak"
+            ],
+            "e_muzz_lmg": [
+                "dp28.tweak",
+                "dp28_deployed.tweak"
+            ],
+            "e_shellejection_556": [
+                "dp28.tweak",
+                "dp28_deployed.tweak",
+                "g41w.tweak"
+            ],
+            "e_muzz_rifle_g43": [
+                "g41w.tweak"
+            ],
+            "e_shellejection_no4clip": [
+                "g41w.tweak"
+            ],
+            "e_shellejection_no4clip_b": [
+                "g41w.tweak"
+            ],
+            "7,62x54mmProjectileSuppressive": [
+                "dp28.tweak",
+                "dp28_deployed.tweak"
+            ],
+            "7,92x57mmProjectile": [
+                "g41w.tweak"
+            ],
+            "fh2_mg_assault_AI": [
+                "dp28.tweak"
+            ],
+            "fh2_mg_deployed_i4_AI": [
+                "dp28_deployed.tweak"
+            ],
+            "fh2_semi_auto_rifle_AI": [
+                "g41w.tweak"
+            ],
+            "zoom_still": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_crouch": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_prone": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_run_prone": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_run": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_fire": [
+                "AnimationSystem1p.inc"
+            ],
+            "idle1": [
+                "AnimationSystem1p.inc"
+            ],
+            "idle2": [
+                "AnimationSystem1p.inc"
+            ],
+            "still": [
+                "AnimationSystem1p.inc"
+            ],
+            "run_prone": [
+                "AnimationSystem1p.inc"
+            ],
+            "run": [
+                "AnimationSystem1p.inc"
+            ],
+            "sprint": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoomTransition": [
+                "AnimationSystem1p.inc"
+            ],
+            "deploy": [
+                "AnimationSystem1p.inc"
+            ],
+            "stand_still": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_walk": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_run": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_zoom": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_sprint": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_reload": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_fire_zoom": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_fire_default": [
+                "AnimationSystem3p.inc"
+            ],
+            "crouch_move": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_turnLeft": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_turnRight": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_still": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_move": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_fire": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_reload": [
+                "AnimationSystem3p.inc"
+            ],
+            "proneToStill": [
+                "AnimationSystem3p.inc"
+            ],
+            "stillToProne": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "forwardToProne": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "backwardToProne": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "hit": [
+                "AnimationSystem3p.inc"
+            ],
+            "standDeploy": [
+                "AnimationSystem3p.inc"
+            ],
+            "proneDeploy": [
+                "AnimationSystem3p.inc"
+            ],
+            "still_stand": [
+                "AnimationSystem1p.inc"
+            ],
+            "still_crouch": [
+                "AnimationSystem1p.inc"
+            ],
+            "still_prone": [
+                "AnimationSystem1p.inc"
+            ],
+            "run_stand": [
+                "AnimationSystem1p.inc"
+            ],
+            "run_crouch": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_stand": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_crouch": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_prone": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_stand": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_crouch": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_prone": [
+                "AnimationSystem1p.inc"
+            ],
+            "FromProne": [
+                "AnimationSystem1p.inc"
+            ],
+            "toProne": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_still_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_move_stand_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_move_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_move_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_move": [
+                "AnimationSystem1p.inc"
+            ],
+            "rnd_idle": [
+                "AnimationSystem1p.inc"
+            ],
+            "idle": [
+                "AnimationSystem1p.inc"
+            ],
+            "idledummy": [
+                "AnimationSystem1p.inc"
+            ],
+            "idle_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "move_stand_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "move_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "move_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "move": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom": [
+                "AnimationSystem1p.inc"
+            ],
+            "normal": [
+                "AnimationSystem1p.inc"
+            ],
+            "root": [
+                "AnimationSystem1p.inc",
+                "AnimationSystem3p.inc"
+            ],
+            "startup": [
+                "AnimationSystem1p.inc",
+                "AnimationSystem3p.inc"
+            ],
+            "stand_fire": [
+                "AnimationSystem3p.inc"
+            ],
+            "crouch_still": [
+                "AnimationSystem3p.inc"
+            ],
+            "crouch_zoom": [
+                "AnimationSystem3p.inc"
+            ],
+            "crouch_fire": [
+                "AnimationSystem3p.inc"
+            ],
+            "crouch_reload": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_turn": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand": [
+                "AnimationSystem3p.inc"
+            ],
+            "crouch": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone": [
+                "AnimationSystem3p.inc"
+            ],
+            "fromProne": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "leftToProne": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "rightToProne": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "crouchDeploy": [
+                "AnimationSystem3p.inc"
+            ],
+            "specialMoves": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_move_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_fire_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "still_stand_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "still_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "still_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "run_stand_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "run_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "run_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_stand_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_pose": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_stand_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_pose": [
+                "AnimationSystem1p.inc"
+            ]
+        }
+    },
+    "produced": {
+        "paths": {
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_deploy.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_fire.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_idle1.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_idle2.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_reload.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_run.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_crawl_rev.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_crawl.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_crawl_left.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_crawl_right.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_sprint.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_tozoom.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_fire.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_run.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_crawl_rev.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_crawl.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_crawl_left.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_crawl_right.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_crouch.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/1p/1p_dp28_zoom_prone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_crouchForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_proneBackward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_proneDeploy.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_proneFire.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_proneForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_proneReload.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_proneStill.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_proneStrafeLeft.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_proneStrafeRight.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_reload.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_runBackward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_runBackwardToProne.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_runForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_runForwardToProne.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_sprint.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_stand.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_standDeploy.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_standFire.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_standToProne.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_strafeLeft.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_strafeRight.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_walkBackward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_walkForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_walkLeft.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/Animations/3p/3p_dp28_walkRight.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_zoom.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/animations/3p/3p_dp28_zoomfire.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_crouch.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_deploy.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_fire_crouch.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_fire_prone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_fire_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_prone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_reload.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_reload_prone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_run_crouch.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_crawl_rev.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_crawl.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_crawl_left.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_crawl_right.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_run_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_sprint.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_tozoom.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_fire.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_run.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_crawl_rev.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_crawl.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_crawl_left.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_crawl_right.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_zoom_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_toprone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/dp28/dp28_deployed/animations/1p/1p_dp28d_fromprone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/HandHeld/dp28/Animations/3p/3p_dp28_sprintAlt.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_deploy.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_fire.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_idle1.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_idle2.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_reload.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_run.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_crawl_rev.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_crawl.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_crawl_left.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_crawl_right.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_sprint.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/animations/1p/1p_g41w_tozoom.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_fire.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_prone.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_crouch.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_run.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_crawl_rev.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_crawl.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_crawl_left.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_crawl_right.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/1p/1p_g41w_zoom_stand.baf": [
+                "AnimationSystem1p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_crouchForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_proneBackward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_proneDeploy.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_proneFire.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_proneForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_proneReload.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_proneStill.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_proneStrafeLeft.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_proneStrafeRight.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/bar18a2/Animations/3p/3p_bar18_reload.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_runBackward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_runBackwardToProne.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_runForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_runForwardToProne.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/g41w/Animations/3p/3p_g41w_sprint.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_stand.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_standDeploy.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_standFire.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_standToProne.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_strafeLeft.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_strafeRight.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_walkBackward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_walkForward.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_walkLeft.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/Animations/3p/3p_m1garand_walkRight.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/HandHeld/m1garand/Animations/3p/3p_m1garand_zoom.baf": [
+                "AnimationSystem3p.inc"
+            ],
+            "Objects/Weapons/Handheld/m1garand/animations/3p/3p_m1garand_zoomfire.baf": [
+                "AnimationSystem3p.inc"
+            ]
+        },
+        "templates": {
+            "dp28": [
+                "dp28.con"
+            ],
+            "dp28_deployed": [
+                "dp28_deployed.con"
+            ],
+            "g41w": [
+                "g41w.con"
+            ],
+            "deploy": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire": [
+                "AnimationSystem1p.inc"
+            ],
+            "idle1": [
+                "AnimationSystem1p.inc"
+            ],
+            "idle2": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload": [
+                "AnimationSystem1p.inc"
+            ],
+            "run": [
+                "AnimationSystem1p.inc"
+            ],
+            "run_prone": [
+                "AnimationSystem1p.inc"
+            ],
+            "sprint": [
+                "AnimationSystem1p.inc"
+            ],
+            "still": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_fire": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_run": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_run_prone": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_still": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_crouch": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_prone": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoomTransition": [
+                "AnimationSystem1p.inc"
+            ],
+            "backwardToProne": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "crouch_move": [
+                "AnimationSystem3p.inc"
+            ],
+            "forwardToProne": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "hit": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_fire": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_move": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_reload": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_still": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_turnLeft": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_turnRight": [
+                "AnimationSystem3p.inc"
+            ],
+            "proneDeploy": [
+                "AnimationSystem3p.inc"
+            ],
+            "proneToStill": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_fire": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_fire_default": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_fire_zoom": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_reload": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_run": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_sprint": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_still": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_walk": [
+                "AnimationSystem3p.inc"
+            ],
+            "stand_zoom": [
+                "AnimationSystem3p.inc"
+            ],
+            "standDeploy": [
+                "AnimationSystem3p.inc"
+            ],
+            "stillToProne": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "fire_crouch": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_prone": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_stand": [
+                "AnimationSystem1p.inc"
+            ],
+            "run_crouch": [
+                "AnimationSystem1p.inc"
+            ],
+            "run_stand": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_crouch": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_prone": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_stand": [
+                "AnimationSystem1p.inc"
+            ],
+            "still_crouch": [
+                "AnimationSystem1p.inc"
+            ],
+            "still_prone": [
+                "AnimationSystem1p.inc"
+            ],
+            "still_stand": [
+                "AnimationSystem1p.inc"
+            ],
+            "toProne": [
+                "AnimationSystem1p.inc"
+            ],
+            "FromProne": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_still_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_move_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_move_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_move_stand_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_move": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom": [
+                "AnimationSystem1p.inc"
+            ],
+            "rnd_idle": [
+                "AnimationSystem1p.inc"
+            ],
+            "idle": [
+                "AnimationSystem1p.inc"
+            ],
+            "idledummy": [
+                "AnimationSystem1p.inc"
+            ],
+            "idle_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "move_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "move_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "move_stand_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "move": [
+                "AnimationSystem1p.inc"
+            ],
+            "normal": [
+                "AnimationSystem1p.inc"
+            ],
+            "root": [
+                "AnimationSystem1p.inc",
+                "AnimationSystem3p.inc"
+            ],
+            "startup": [
+                "AnimationSystem1p.inc",
+                "AnimationSystem3p.inc"
+            ],
+            "completeTree": [
+                "AnimationSystem1p.inc",
+                "AnimationSystem3p.inc"
+            ],
+            "stand": [
+                "AnimationSystem3p.inc"
+            ],
+            "crouch_still": [
+                "AnimationSystem3p.inc"
+            ],
+            "crouch_zoom": [
+                "AnimationSystem3p.inc"
+            ],
+            "crouch_fire": [
+                "AnimationSystem3p.inc"
+            ],
+            "crouch_reload": [
+                "AnimationSystem3p.inc"
+            ],
+            "crouch": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone_turn": [
+                "AnimationSystem3p.inc"
+            ],
+            "prone": [
+                "AnimationSystem3p.inc"
+            ],
+            "fromProne": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "leftToProne": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "rightToProne": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "specialMoves": [
+                "AnimationSystem3p.inc",
+                "AnimationSystem1p.inc"
+            ],
+            "crouchDeploy": [
+                "AnimationSystem3p.inc"
+            ],
+            "zoom_move_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "zoom_fire_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "still_stand_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "still_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "still_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "run_stand_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "run_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "run_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_stand_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "fire_pose": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_stand_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_crouch_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_prone_t": [
+                "AnimationSystem1p.inc"
+            ],
+            "reload_pose": [
+                "AnimationSystem1p.inc"
+            ]
+        }
+    }
+}

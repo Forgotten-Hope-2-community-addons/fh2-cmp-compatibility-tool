@@ -1,0 +1,261 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.maxSkip3pLods 0
+GeometryTemplate.setSubGeometryLodDistance 1 0 5
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 8
+ObjectTemplate.activeSafe GenericFireArm dp28_deployed
+ObjectTemplate.creator DSU-1:dsu
+ObjectTemplate.modifiedByUser "natty"
+ObjectTemplate.saveInSeparateFile 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\dp28.dds
+ObjectTemplate.weaponHud.selectIcon Ingame\Weapons\Icons\Hud\Selection\dp28_deployed.dds
+ObjectTemplate.weaponHud.hudName "KILLMESSAGE_WEAPON_dp28"
+ObjectTemplate.weaponHud.guiIndex 51
+ObjectTemplate.weaponHud.altGuiIndex 50
+ObjectTemplate.weaponHud.deviationFactor 5
+ObjectTemplate.weaponHud.maxVisualDeviation 60
+ObjectTemplate.weaponHud.minVisualDeviation 0
+ObjectTemplate.weaponHud.enablePostProcessingOnGuiIndex 50
+ObjectTemplate.weaponHud.overheatSound S_Weapon_Handheld_Overheat
+rem ---EndComp ---
+rem ---BeginComp:PostProcess ---
+ObjectTemplate.createComponent PostProcess
+ObjectTemplate.postProcess.tvInterference 0.007
+rem ---EndComp ---
+rem ---BeginComp:SingleFireComp ---
+ObjectTemplate.createComponent SingleFireComp
+ObjectTemplate.fire.roundsPerMinute 600
+ObjectTemplate.fire.addFireRate 2
+ObjectTemplate.fire.fireInCameraDof 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.nrOfMags 8
+ObjectTemplate.ammo.magSize 47
+ObjectTemplate.ammo.ammoType 2
+ObjectTemplate.ammo.nrOfMags 5
+ObjectTemplate.ammo.reloadTime 5.3
+ObjectTemplate.ammo.magLinkWeapon dp28
+ObjectTemplate.fire.onlyFireWhenProne 1
+rem ---EndComp ---
+rem ---BeginComp:SoldierBasedRecoilComp ---
+ObjectTemplate.createComponent SoldierBasedRecoilComp
+ObjectTemplate.recoil.hasRecoilForce 1
+ObjectTemplate.recoil.goBackOnRecoil 0
+ObjectTemplate.recoil.recoilForceUp CRD_UNIFORM/2.55/2.35/0
+ObjectTemplate.recoil.recoilForceLeftRight CRD_UNIFORM/-1.75/1.55/0
+ObjectTemplate.recoil.zoomModifier 0.2
+ObjectTemplate.recoil.recoilGraphFrameCount 5
+ObjectTemplate.recoil.recoilGraphExponent 5
+ObjectTemplate.recoil.recoilGraphTotalMovement 0.25
+rem ---EndComp ---
+rem ---BeginComp:SoldierDeviationComp ---
+ObjectTemplate.createComponent SoldierDeviationComp
+ObjectTemplate.deviation.setFireDev 2.5 0.5 0.15
+ObjectTemplate.deviation.minDev 1.2
+ObjectTemplate.deviation.setTurnDev 0 0 0 0
+ObjectTemplate.deviation.setSpeedDev 5 1 1 0.25
+ObjectTemplate.deviation.setMiscDev 48 48 0.6
+ObjectTemplate.deviation.devModLie 0.75
+ObjectTemplate.deviation.devModZoom 0.1
+rem ---EndComp ---
+rem ---BeginComp:HelpHud ---
+ObjectTemplate.createComponent HelpHud
+ObjectTemplate.HelpHud.helpStringKey "FH2_HELP_LMG_lieToFire"
+ObjectTemplate.HelpHud.helpSoundKey "fh2_tip"
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.zoomDelay 0.55
+ObjectTemplate.zoom.zoomLod 1
+ObjectTemplate.zoom.addZoomFactor 0
+ObjectTemplate.zoom.addZoomFactor 1
+ObjectTemplate.zoom.mouseSpeedMod 0.2
+ObjectTemplate.zoom.onlyZoomWhenProne 1
+rem ---EndComp ---
+ObjectTemplate.cullRadiusScale 3
+ObjectTemplate.geometry dp28_deployed
+ObjectTemplate.setCollisionMesh dp28_deployed
+ObjectTemplate.mapMaterial 0 col 68
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate fh2_mg_deployed_i4_AI
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dp28_deployed_Fire1P
+ObjectTemplate.addTemplate S_dp28_deployed_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_dp28_deployed_Fire3P
+ObjectTemplate.setPosition 0/0.07/0.855
+ObjectTemplate.addTemplate S_dp28_deployed_BoltClick
+ObjectTemplate.addTemplate S_dp28_deployed_TriggerClick
+ObjectTemplate.addTemplate S_dp28_deployed_Reload1P
+ObjectTemplate.addTemplate S_dp28_deployed_Reload3P
+ObjectTemplate.addTemplate S_dp28_deployed_Deploy1P
+ObjectTemplate.addTemplate S_dp28_deployed_Deploy3P
+ObjectTemplate.addTemplate S_dp28_deployed_Zoom
+ObjectTemplate.addTemplate geb_gun
+ObjectTemplate.addTemplate e_muzz_lmg
+ObjectTemplate.setPosition 0/0.07/0.855
+ObjectTemplate.addTemplate e_shellejection_556
+ObjectTemplate.setPosition 0.005/-0.031/0.05
+ObjectTemplate.setRotation 0/0/-90
+rem -------------------------------------
+ObjectTemplate.animationSystem1P Objects/Weapons/Handheld/dp28/dp28_deployed/AnimationSystem1p.inc
+ObjectTemplate.animationSystem3P Objects/Weapons/Handheld/dp28/dp28_deployed/AnimationSystem3p.inc
+ObjectTemplate.projectileTemplate 7,62x54mmProjectileSuppressive
+ObjectTemplate.keepProjectiles 10
+ObjectTemplate.velocity 840
+ObjectTemplate.itemIndex 4
+ObjectTemplate.delayToUse 1.57
+ObjectTemplate.heatAddWhenFire 0.015
+ObjectTemplate.coolDownPerSec 0.35
+ObjectTemplate.overheatPenalty 1.75
+
+ObjectTemplate.activeSafe Sound S_dp28_deployed_Fire1P
+ObjectTemplate.modifiedByUser "natty"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/dp28/sounds/dp_1p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.92/1.1/1/1/0/0.98/1.02/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+
+ObjectTemplate.activeSafe Sound S_dp28_deployed_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser "jan_kurator"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/dp28/sounds/dp_1p_out.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.9
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.92/1.1/1/1/0/0.98/1.02/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+
+ObjectTemplate.activeSafe Sound S_dp28_deployed_Fire3P
+ObjectTemplate.modifiedByUser "jan_kurator"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/dp28/sounds/dp_3p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.8
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 7
+ObjectTemplate.halfvolumedistance 12
+ObjectTemplate.soundRadius 0.5
+ObjectTemplate.pitchEnvelope 0/1/0.92/1.1/1/1/0/0.98/1.02/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+
+ObjectTemplate.activeSafe Sound S_dp28_deployed_BoltClick
+ObjectTemplate.modifiedByUser "jan_kurator"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/Common/MonoSounds/fh_bolt_click.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.75
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_dp28_deployed_TriggerClick
+ObjectTemplate.modifiedByUser "natty"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "Objects/Weapons/Handheld/Common/MonoSounds/fh_trigger_click.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_dp28_deployed_Reload1P
+ObjectTemplate.modifiedByUser "natty"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/dp28/sounds/dp_deployed_Reload_1p3p.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.7
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_dp28_deployed_Reload3P
+ObjectTemplate.modifiedByUser "natty"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/dp28/sounds/dp_deployed_Reload_1p3p.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 2.5
+ObjectTemplate.halfVolumeDistance 5
+
+ObjectTemplate.activeSafe Sound S_dp28_deployed_Deploy1P
+ObjectTemplate.modifiedByUser "natty"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/dp28/sounds/dp_deploy_1p3p.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_dp28_deployed_Deploy3P
+ObjectTemplate.modifiedByUser "natty"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/dp28/sounds/dp_deploy_1p3p.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 0.5
+ObjectTemplate.halfVolumeDistance 1
+
+ObjectTemplate.activeSafe Sound S_dp28_deployed_Zoom
+ObjectTemplate.modifiedByUser "natty"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/common/MonoSounds/fh_rifle_zoom.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
