@@ -106,13 +106,20 @@ def scan(regex_commands) -> dict:
     return nodes
 
 
+def create_output_dir(path="out"):
+    '''
+    Create output dir
+    '''
+    if not os.path.isdir(path):
+        os.makedirs(path)
+
+    return path
+
+
 def save(consumed, produced):
     '''
     '''
-    # Create output dir
-    path = './out'
-    if not os.path.isdir(path):
-        os.makedirs(path)
+    path = create_output_dir()
 
     with open(f'{path}/templates.txt', 'w') as f:
         f.write('=======================:\n')
@@ -163,44 +170,58 @@ def generate_search_commands(templates: list, path: str):
     return grep_commands
 
 
-def main(paths: list):
+def main(paths: dict):
     '''
     '''
-    for path in paths:
-        ## Consumers
-        grep_commands = generate_search_commands(templates['consumers'], path)
-        consumed = scan(grep_commands)
+    include_paths=(
+        'soldiers',
+        'kits',
+        'vehicles',
+        'weapons',
+    )
+    # TODO handle sensitive case
 
-        ## Producers
-        grep_commands = generate_search_commands(templates['producers'], path)
-        produced = scan(grep_commands)
+    for mod, path in paths.items():
+        dirs = os.listdir(path)
+        for folder in include_paths:
+            if folder in dirs:
+                # print(os.path.join(path, folder))
+                print(f'Scanning {mod} mod from {path}')
+                ## Consumers
+                grep_commands = generate_search_commands(templates['consumers'], path)
+                consumed = scan(grep_commands)
 
-        # TODO replace / with _
-        with open(f'{path}.json', 'w') as f:
-            nodes = {
-                'consumed': consumed,
-                'produced': produced
-            }
-            f.write(json.dumps(nodes, indent=4))
+                ## Producers
+                grep_commands = generate_search_commands(templates['producers'], path)
+                produced = scan(grep_commands)
+
+                outdir = create_output_dir()
+                with open(f'{outdir}/{mod}_{folder}.json', 'w') as f:
+                    nodes = {
+                        'consumed': consumed,
+                        'produced': produced
+                    }
+                    f.write(json.dumps(nodes, indent=4))
 
         # Save to file
         # save(consumed, produced)
 
 
 if __name__ == '__main__':   
-    arg_parser = argparse.ArgumentParser(
+    parser = argparse.ArgumentParser(
         prog='main.py',
         description='This programs runs a compatibility test...'
     )
-    arg_parser.add_argument('-p', '--path', 
-        help='Path to unzipped mod folder',
-        nargs='+',
+    parser.add_argument('-b', '--beta', 
+        help='Path to unzipped beta mod folder',
+        nargs='?',
         required=True
     )
-    args = arg_parser.parse_args()
-    
-    print(args.path)
-    
-    # TODO validate args.path
-    
-    main(args.path)
+    parser.add_argument('-c', '--cmp', 
+        help='Path to unzipped cmp mod folder',
+        nargs='?',
+        required=True
+    )
+    args = parser.parse_args()  
+    paths = dict(beta=args.beta, cmp=args.cmp)
+    main(paths)
